@@ -1,6 +1,7 @@
 package id.slametriyadi.intentimplicit_imastudio;
 
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_audio_manager:
+                startActivity(new Intent(this, AudioManagerActivity.class));
                 break;
             case R.id.btn_notification:
                 break;
