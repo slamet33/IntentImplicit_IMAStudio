@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_telepon:
                 break;
             case R.id.btn_camera:
+                startActivity(new Intent(this, CameraActivity.class));
                 break;
             case R.id.btn_browser:
                 break;
