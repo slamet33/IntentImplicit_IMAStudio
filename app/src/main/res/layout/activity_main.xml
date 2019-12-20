@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <Button
+        android:id="@+id/btn_audio_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Audio Manager"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:text="Notification"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_wifi"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Wifi"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:text="Email"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="SMS"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Telephone"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Kamera"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Browser"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:text="Alarm"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
