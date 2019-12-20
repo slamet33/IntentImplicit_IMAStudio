@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_wifi:
                 break;
             case R.id.btn_email:
+                startActivity(new Intent(this, EmailActivity.class));
                 break;
             case R.id.btn_sms:
                 break;
