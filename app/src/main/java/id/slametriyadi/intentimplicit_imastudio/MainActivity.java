@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, NotificationActivity.class));
                 break;
             case R.id.btn_wifi:
+                startActivity(new Intent(this, WifiActivity.class));
                 break;
             case R.id.btn_email:
                 startActivity(new Intent(this, EmailActivity.class));
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, SmsActivity.class));
                 break;
             case R.id.btn_telepon:
+                startActivity(new Intent(this, TelephoneActivity.class));
                 break;
             case R.id.btn_camera:
                 startActivity(new Intent(this, CameraActivity.class));
