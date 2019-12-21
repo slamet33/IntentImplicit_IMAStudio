@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, EmailActivity.class));
                 break;
             case R.id.btn_sms:
+                startActivity(new Intent(this, SmsActivity.class));
                 break;
             case R.id.btn_telepon:
                 break;
