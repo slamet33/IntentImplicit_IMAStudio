@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, AudioManagerActivity.class));
                 break;
             case R.id.btn_notification:
+                startActivity(new Intent(this, NotificationActivity.class));
                 break;
             case R.id.btn_wifi:
                 break;
